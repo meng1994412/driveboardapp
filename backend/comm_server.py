@@ -57,8 +57,7 @@ try:
             # move(translation)
             print(translation)
             control_move(translation)
-            # decision = data.decode("utf-8")
-            # print(decision)
+
         else:
             # no more data --quit the loop
             print("no more data")

@@ -26,9 +26,9 @@ def control(decision):
         driveboard.move(0, 0, 0)
         time.sleep(0.1)
     elif decision == "run":
+        driveboard.absolute()
         path = [[[0, 0], [0, 0]],[[30.0, 30.0], [30.0, 60.0], [60.0, 60.0], [60.0, 30.0], [30.0, 30.0]]]
 
-        # if driveboard.status()['ready']:
         driveboard.intensity(0.0)
         driveboard.air_on()
         seekrate_ = 6000

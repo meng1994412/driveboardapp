@@ -41,7 +41,7 @@ driveboard.relative()
 
 driveboard.feedrate(seekrate_)
 driveboard.intensity(0.0)
-driveboard.move(50, 50)
+# driveboard.move(50, 50)
 time.sleep(2)
 
 # wait for a connection
